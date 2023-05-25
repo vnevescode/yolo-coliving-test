@@ -12,7 +12,7 @@ const PropertyContainerDiv = styled.div`
     display: flex;
     color: black;
     width: 1728px;    
-    background-color: lightgray; 
+    
     
 `
 
@@ -20,8 +20,7 @@ const CheckBoxContainerDiv = styled.div`
     display: flex;
     color: black;
     width: 100px;
-    height: 200px;    
-    background-color: #eeeeee;
+    height: 200px;        
     margin-left: 70px;
 `
 
@@ -92,9 +91,13 @@ const OptionsContainerDelete = styled.div`
 `
 
 const PropertySeparetorHr = styled.hr`
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    color: red;
+    border: 1px solid rgba(0, 0, 0, 0.3);    
     width: 1196px;
+`
+const PropertySeparetorHrDiv = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-bottom:20px;
 `
 
 const FormDiv = styled.div`
@@ -195,7 +198,9 @@ const FormDiv = styled.div`
                 
             </PropertyContainerDiv>
 
-            <PropertySeparetorHr></PropertySeparetorHr>
+            <PropertySeparetorHrDiv>
+                <PropertySeparetorHr></PropertySeparetorHr>
+            </PropertySeparetorHrDiv>
             
 
             {   isClickedEdit && 
