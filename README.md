@@ -8,7 +8,7 @@ Get ready to dive into this project, gain valuable insights, and unleash your cr
 For Backend <br />
 Remember to do : <br />
 -- Install serveless framework : npm install -g serverless <br />
--- Set Your credencials : npm run sls config credentials --provider aws, --key XXXXXX, --secret XXXXXXXXXXXXXXXXXXX <br />
+-- Set Your credencials : <br /> npm run sls config credentials --provider aws, --key XXXXXX, --secret XXXXXXXXXXXXXXXXXXX <br />
 -- npm install to install dependencies <br />
 -- serverless deploy -v [For verbose version] <br />
 -- serverless remove [ To remove project ] <br />
