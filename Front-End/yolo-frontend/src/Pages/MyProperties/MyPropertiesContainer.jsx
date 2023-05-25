@@ -13,7 +13,7 @@ const MyPropertiesContainerDiv = styled.div`
     width: 100%;
     flex-direction: column;
     align-items: center;   
-    background-color: orange; 
+    margin-top: 10px;
 `
 //let arr = [1,2];
 
